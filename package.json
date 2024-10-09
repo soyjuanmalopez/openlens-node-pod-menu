@@ -1,6 +1,6 @@
 {
-  "name": "@alebcay/openlens-node-pod-menu",
-  "version": "0.1.2",
+  "name": "@soyjuanmalopez/openlens-node-pod-menu",
+  "version": "0.1.5",
   "description": "Node and pod menus for OpenLens",
   "repository": {
     "type": "git",
@@ -39,5 +39,9 @@
     "k8slens",
     "lens",
     "openlens"
-  ]
+  ],
+  "dependencies": {
+    "@alebcay/openlens-node-pod-menu": "file:",
+    "@soyjuanmalopez/openlens-node-pod-menu": "file:"
+  }
 }

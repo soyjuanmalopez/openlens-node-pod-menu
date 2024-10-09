@@ -46,7 +46,7 @@ export class PodLogsMenu extends React.Component<Renderer.Component.KubeObjectMe
         <Icon
           material="subject"
           interactive={toolbar}
-          tooltip={toolbar && "Pod Logs"}
+          tooltip={toolbar && "Pods Logs :) "}
         />
         <span className="title">Logs</span>
         {containers.length > 1 && (
