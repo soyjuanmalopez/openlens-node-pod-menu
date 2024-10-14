@@ -7,6 +7,9 @@
     "url": "git+https://github.com/alebcay/openlens-node-pod-menu.git",
     "directory": "."
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "renderer": "dist/renderer.js",
   "engines": {
     "node": "^16.14.2",
@@ -42,7 +45,7 @@
     "openlens"
   ],
   "dependencies": {
-    "@alebcay/openlens-node-pod-menu": "file:",
-    "@soyjuanmalopez/openlens-node-pod-menu": "file:"
+    "@soyjuanmalopez/openlens-node-pod-menu": "file:",
+    "@soyjuanmlopez/openlens-node-pod-menu": "file:"
   }
 }
