@@ -40,14 +40,16 @@ export class PodFileDownloadMenu extends React.Component<Renderer.Component.Kube
     if (!selectedContainer || !filePath) return;
 
     const kubectlPath = App.Preferences.getKubectlPath() || "kubectl";
-    const commandParts = [
+
+    const commandParts2 = [
       kubectlPath,
       "cp",
       `${pod.getNs()}/${pod.getName()}:${filePath}`,
-      `./${pod.getName()}_${selectedContainer}_${filePath.split('/').pop()}`,
+      `./${filePath.split('/').pop()}`,
     ];
 
-    const shell = terminalStore.sendCommand(commandParts.join(" "), { enter: true });
+    await terminalStore.sendCommand(commandParts2.join(" "), { enter: true });
+
 
     this.setState({ showPathInput: false, filePath: "" });
     Navigation.hideDetails();
