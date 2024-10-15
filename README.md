@@ -4,28 +4,6 @@ This OpenLens extension adds back the node and pod menu functionality that was r
 
 # Installing this extension
 
-Follow these steps to install a custom plugin in OpenLens using a .tgz file:
-
-1. Download the plugin file (e.g., `soyjuanmalopez-openlens-node-pod-menu-0.2.6.tgz`) from the source.
-
-2. Open OpenLens on your system.
-
-3. Navigate to the Extensions menu:
-   - On Windows/Linux: File > Extensions
-   - On macOS: OpenLens > Extensions
-
-4. In the Extensions view, click on the "Install" button.
-
-5. Browse to the location where you saved the .tgz file and select it.
-
-6. Click "Open" to start the installation process.
-
-7. Once installed, the plugin should appear in your list of installed extensions.
-
-8. Restart OpenLens to ensure the plugin is properly loaded.
-
-9. After restarting, you should be able to use the new functionality provided by the plugin.
-
 ```
 @soyjuanmalopez/openlens-node-pod-menu
 ```
