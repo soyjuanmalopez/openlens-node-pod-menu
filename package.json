@@ -1,7 +1,7 @@
 {
-  "name": "@soyjuanmalopez/openlens-node-pod-menu",
+  "name": "@soyjuanmalopez/kube-pod-toolkit",
   "version": "0.2.6",
-  "description": "Node and pod menus for OpenLens",
+  "description": "All-in-one CLI for Kubernetes pod management. Upload/download files, view logs, access shell, and delete pods easily.",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/alebcay/openlens-node-pod-menu.git",
@@ -45,7 +45,6 @@
     "openlens"
   ],
   "dependencies": {
-    "@soyjuanmalopez/openlens-node-pod-menu": "file:",
-    "@soyjuanmlopez/openlens-node-pod-menu": "file:"
+    "@soyjuanmalopez/kube-pod-toolkit": "file:"
   }
 }
